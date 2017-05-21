@@ -1,0 +1,322 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 8px 0;
+}
+
+.main {
+    height:auto;
+}
+.centered {
+    text-align: center;
+    vertical-align: middle;
+}
+
+header {
+    position: relative;
+}
+
+
+.img-banner{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.left-bar{
+    background-color: #f1f1f1;
+}
+
+.left-bar ul {
+    display: inline-block;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+
+.left-bar ul li a {
+    width: 100%;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin: 5px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.left-bar ul li a:hover {
+    background-color: lightgrey;
+}
+
+.left-bar li {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+nav {
+    background-color: #4a4a4a;
+}
+
+nav ul {
+    margin-top: 10px;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 2px 16px;
+}
+
+nav ul form {
+    display: inline-block;
+}
+
+header nav li:first-of-type {
+    padding-left: 0;
+}
+
+header nav li:last-of-type {
+    padding-right: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+header nav a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer nav a {
+    font-size: 12px;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: #4a4a4a;
+}
+
+.img-banner img {
+    width:100%;
+}
+
+.nice-action-log {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.footer{
+    height: 25px;
+    background-color:white;
+    border: 3px solid gray;
+    margin-top: 5px;
+    padding-left:0px!important;
+    padding-right:0px!important;
+}
+
+.footer li {
+    list-style: none;
+    text-align: center;
+    background-color: #4a4a4a;
+}
+
+.footer li a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.input-group  {
+    margin:16px 0;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+
+.input-group input,
+.input-group textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family:inherit;
+    font-size: inherit;
+    padding: 4px 8px;
+    
+}
+
+.input-group #author,
+.input-group #email{
+    width: 200px;
+}
+
+.input-group textarea{
+    width: 400px;
+}
+
+th {
+    text-align: left;
+}
+
+thead{
+    background-color: grey;
+}
+
+.vrijdag {
+    float:left;
+    border:1px solid black;
+    display:block;
+
+}
+
+.vrijdag-voorkeur {
+    float:left;
+    border:1px solid black;
+    display:block;
+}
+
+.zaterdag {
+    float:left;
+    border:1px solid black;
+    display:block;
+}
+
+.zaterdag-voorkeur {
+    float:left;
+    border:1px solid black;
+    display:block;
+}
+
+.zondag {
+    float:left;
+    border:1px solid black;
+    display:block;
+    margin-bottom: 480px;
+}
+
+.zondag-voorkeur {
+    float:left;
+    border:1px solid black;
+    display:block;
+    margin-bottom: 480px;
+}
+
+
+.dashboard li a{
+   
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard li {
+     list-style: none;
+}
+    
+ 
+.aanvragen {
+    float:left;
+    margin-top: 200px;
+}
+
+.vrijdag tr td {
+    background-color: lightgreen;
+}
+
+.zaterdag tr td {
+    background-color: lightgreen;
+}
+
+.zondag tr td {
+    background-color: lightgreen;
+}
+
+.vrijdag-voorkeur tr td {
+    background-color: lightgrey;
+}
+
+.zaterdag-voorkeur tr td {
+    background-color: lightgrey;
+}
+
+.zondag-voorkeur tr td {
+    background-color: lightgrey;
+}
+
+.Aanvraag {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-table-table {
+    text-align: center;
+    
+}
+
+.search-table .search-table-table tbody tr th {
+    
+    background-color:grey;
+    
+}
+
+.search-table .search-table-table tbody tr td {
+    
+    border: 1px solid lightgray;
+    
+}
+
+.vrijdag-agenda table tbody .status1 {
+    background-color: lightgreen;
+}
+
+.vrijdag-agenda table tbody .status2 {
+    background-color: lightgray;
+}
+
+.vrijdag-agenda table tbody .status3 {
+    background-color: #CD5C5C;
+}
+
+
+.zaterdag-agenda table tbody .status1 {
+    background-color: lightgreen;
+}
+
+.zaterdag-agenda table tbody .status2 {
+    background-color: lightgray;
+}
+
+.zaterdag-agenda table tbody .status3 {
+    background-color: #CD5C5C;
+}
+
+.zondag-agenda table tbody .status1 {
+    background-color: lightgreen;
+}
+
+.zondag-agenda table tbody .status2 {
+    background-color: lightgray;
+}
+
+.zondag-agenda table tbody .status3 {
+    background-color: #CD5C5C;
+}
+
+.contact {
+    min-height: 720px;
+}
